@@ -1,0 +1,9 @@
+Flask
+Flask-SQLAlchemy
+Flask-Mail
+Flask-Migrate
+Flask-CORS
+python-dotenv
+PyMySQL
+Flask-JWT-Extended
+Werkzeug
