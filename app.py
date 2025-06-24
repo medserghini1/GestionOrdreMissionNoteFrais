@@ -28,12 +28,14 @@ def create_app():
     from routes.note_frais import note_frais_bp
     from routes.user import user_bp
     from routes.upload import upload_bp
+    from routes.profile import profile_bp  # <-- Ajout de l'import ici
 
     app.register_blueprint(auth_bp)
     app.register_blueprint(mission_bp)
     app.register_blueprint(note_frais_bp)
     app.register_blueprint(user_bp)
     app.register_blueprint(upload_bp)
+    app.register_blueprint(profile_bp)  # <-- Enregistrement du blueprint profil
 
     return app
 
